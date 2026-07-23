@@ -107,3 +107,10 @@ After MathQuantum, I plan to continue developing this idea by:
 - and adding more realistic features from platform economics.
 
 In the future I wish to major in Computer Science and minor in Economics, continuing to take Quantum Computing courses.
+
+##References
+
+1. 5. Sethi, R., & Weibull, J. (2016). *What Is... Nash Equilibrium?* Notices of the American Mathematical Society, **63**(5), 526–529. https://www.ams.org/publications/journals/notices/201605/rnoti-p526.pdf
+
+2. Eisert, J., Wilkens, M., & Lewenstein, M. (1999). *Quantum Games and Quantum Strategies*. Physical Review Letters, **83**(15), 3077–3080. https://doi.org/10.1103/PhysRevLett.83.3077
+
