@@ -108,7 +108,7 @@ After MathQuantum, I plan to continue developing this idea by:
 
 In the future I wish to major in Computer Science and minor in Economics, continuing to take Quantum Computing courses.
 
-##References
+## References
 
 1. 5. Sethi, R., & Weibull, J. (2016). *What Is... Nash Equilibrium?* Notices of the American Mathematical Society, **63**(5), 526–529. https://www.ams.org/publications/journals/notices/201605/rnoti-p526.pdf
 
