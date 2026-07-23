@@ -36,8 +36,8 @@ This project explores how expanding the strategy space from classical strategies
 5. Represent player strategies using unitary operations.
 6. Simulate measurement outcomes and expected payoffs.
 7. Compare the classical and quantum equilibria.
----
 
+---
 ## Motivation
 
 Digital platforms make strategic decisions about pricing, fees, advertising, visibility, and competition. Classical game theory models these interactions using fixed actions or probabilistic mixed strategies.
