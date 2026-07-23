@@ -1,79 +1,108 @@
 ---
+---
 layout: single
-title: "Exploring Quantum Game Theory for Platform Economics"
+title: "Quantum Game Theory for Digital Platform Competition"
 author_profile: false
 permalink: /
 ---
-## Investigating How Quantum Strategies Influence Competition in Digital Markets
 
-This project explores how expanding the strategy space from classical strategies to quantum strategies changes equilibrium behavior in models of platform economics. Using digital marketplace competition as a motivating example, I will investigate how quantum concepts such as superposition, entanglement, and unitary operations can be incorporated into game-theoretic models to compare classical and quantum strategic outcomes.
+# Quantum Game Theory for Digital Platform Competition
 
-<div style="padding: 1rem 1.25rem; border: 1px solid #d9d9d9; border-radius: 10px; margin: 1.5rem 0; background: #fafafa;">
+*Exploring how quantum strategies may affect competition between digital platforms.*
 
-<strong>Classical game theory:</strong> players choose classical actions or probability-based strategies.
+---
 
-<br><br>
+## Project Idea
 
-<strong>Quantum game theory:</strong> players can use qubits, unitary operations, interference, and entanglement.
+This project proposes applying quantum game theory to a simplified model of competition between digital platforms. I will compare a classical game-theoretic model with a quantum version to explore whether quantum strategies can lead to different equilibrium behavior or expected payoffs.
 
-<br><br>
+---
 
-<strong>My project:</strong> compare how these two strategy spaces affect equilibrium behavior in digital platform competition.
+## Background
 
-</div>
+Game theory is the mathematical study of strategic decision-making between players whose outcomes depend on one another. In economics, game theory is commonly used to study competition, pricing, cooperation, bargaining, and market behavior.
+
+A major concept in game theory is the **Nash equilibrium**, which occurs when no player can improve their payoff by changing their strategy alone.
+
+Quantum game theory extends classical game theory by allowing players to use quantum strategies. Instead of choosing only fixed classical actions, players may apply quantum operations to qubits. Concepts such as **superposition, entanglement, phase, interference, and measurement** can influence the probabilities of the final outcomes.
+
+For this project, I will study a simplified competition game between two digital platforms. Each platform will make a strategic choice, such as whether to maintain or lower its fees. I will first analyze the classical version of the game and then explore how the results may change when the strategy space is expanded using quantum game theory.
+
+### Motivation
+
+I chose this project because it combines interests that I have such as mathematics, economics, computer science, and quantum computing. I have always been especially interested in problems where mathematical models can help explain real decisions and behavior.
+
+In my previous research on digital housing platforms, I studied how competition between online rental marketplaces could influence pricing and market outcomes. That work made me more curious about the strategies platforms use, how they react to competitors, and how economists model those interactions.
+
+During MathQuantum, I began learning how ideas such as qubits, quantum gates, Hilbert spaces, entanglement, measurement, and quantum algorithms can create new ways of representing information and decision-making. This project feels like a natural next step because it allows me to connect something I have already researched with a completely new mathematical framework.
+
+### Complementary Video
+
+A video explaining quantum game theory will be added after the literature review.
+
 ---
 
 ## Research Question
 
-**How does expanding the strategy space from classical strategies to quantum strategies affect equilibrium behavior in simplified models of digital platform competition?**
-
-## Project Roadmap
-
-1. Build a simplified classical platform competition game.
-2. Represent the game using a payoff matrix.
-3. Identify the classical Nash equilibrium.
-4. Convert the model into a quantum game.
-5. Represent player strategies using unitary operations.
-6. Simulate measurement outcomes and expected payoffs.
-7. Compare the classical and quantum equilibria.
-
----
-## Motivation
-
-Digital platforms make strategic decisions about pricing, fees, advertising, visibility, and competition. Classical game theory models these interactions using fixed actions or probabilistic mixed strategies.
-
-Quantum game theory expands the set of possible strategies by allowing players to use quantum states and unitary operations. This introduces concepts such as superposition, phase, interference, and entanglement into game-theoretic models.
-
-I am especially interested in digital housing platforms because I previously researched how competition among rental platforms relates to market outcomes. This project allows me to connect that interest in economics with the quantum information concepts I learned through MathQuantum.
+> How does expanding the strategy space from classical strategies to quantum strategies affect equilibrium behavior in a simplified model of digital platform competition?
 
 ---
 
-## Project Approach
+## Proposed Approach
 
-I will first construct a simplified classical game involving two competing digital platforms. Each platform will choose between two actions, and the resulting payoffs will be represented using a payoff matrix. I will then identify the classical Nash equilibrium.
-
-Next, I will propose a quantum version of the game using the Eisert–Wilkens–Lewenstein framework. Each platform’s decision will be represented by a qubit, and the players will choose unitary operations as their strategies. The final quantum state will be measured, and the measurement outcomes will determine the platforms’ payoffs.
-
-The classical and quantum versions can then be compared to determine whether expanding the strategy space changes the equilibrium or expected payoffs.
+1. Create a simplified competition game between two digital platforms.
+2. Give each platform two possible strategies.
+3. Represent the game using a classical payoff matrix.
+4. Identify the classical Nash equilibrium.
+5. Encode the classical strategies using qubit basis states.
+6. Use a quantum game theory framework to represent player strategies as quantum operations.
+7. Simulate the possible outcomes.
+8. Compare the classical and quantum expected payoffs and equilibrium behavior.
 
 ---
 
-## Key Concepts
+## Tools and Techniques
 
-- Classical and quantum game theory
-- Nash equilibrium
-- Qubits and superposition
+### Mathematics
+
+- **Linear algebra** will be used to represent quantum states, matrices, and quantum gates.
+- **Complex numbers** will be used to describe probability amplitudes and phase.
+- **Tensor products** will be used to represent a two-player quantum system.
+- **Probability** will be used to calculate measurement outcomes and expected payoffs.
+- **Game theory** will be used to define strategies, payoffs, best responses, and Nash equilibria.
+- **Optimization** may be used in future work to search for equilibrium strategies.
+
+### Quantum Information Concepts
+
+- Qubits
+- Superposition
 - Entanglement
+- Quantum gates
 - Unitary operations
-- Quantum measurement
-- Payoff matrices
-- Expected value
-- Platform economics
+- Measurement
+- Quantum circuits
+- Interference
+
+### Computational Tools
+
+- Python
+- NumPy
+- Qiskit
+- Matplotlib
+- Quantum circuit simulators
 
 ---
 
 ## Goals
 
-Through this project, I hope to understand how quantum information can create new mathematical frameworks for studying strategic decision-making.
+My goal during MathQuantum is to develop a strong conceptual understanding of quantum game theory and explain how quantum information can be connected to strategic decision-making.
 
-After MathQuantum, I plan to continue this project by implementing a simplified quantum game using Python and Qiskit, comparing classical and quantum outcomes, and eventually developing digital housing platforms as a more detailed case study.
+After MathQuantum, I plan to continue developing this idea by:
+
+- implementing the game in Python and Qiskit,
+- comparing classical and quantum outcomes,
+- testing different quantum strategies,
+- exploring different levels of entanglement,
+- and adding more realistic features from platform economics.
+
+In the future I wish to major in Computer Science and minor in Economics, continuing to take Quantum Computing courses.
