@@ -1,5 +1,4 @@
 ---
----
 layout: single
 title: "Quantum Game Theory for Digital Platform Competition"
 author_profile: false
@@ -36,9 +35,13 @@ In my previous research on digital housing platforms, I studied how competition 
 
 During MathQuantum, I began learning how ideas such as qubits, quantum gates, Hilbert spaces, entanglement, measurement, and quantum algorithms can create new ways of representing information and decision-making. This project feels like a natural next step because it allows me to connect something I have already researched with a completely new mathematical framework.
 
-### Complementary Video
+## Complementary Video
 
-A video explaining quantum game theory will be added after the literature review.
+Before diving into the mathematics of quantum game theory, the following video provides an intuitive introduction to the Prisoner's Dilemma, Nash equilibrium, and how quantum concepts such as superposition and entanglement can change strategic interactions.
+
+[![Quantum Game Theory Explained](https://img.youtube.com/vi/_kLb1glm6EM/maxresdefault.jpg)](https://youtu.be/_kLb1glm6EM)
+
+*Up and Atom – Quantum Game Theory Explained*
 
 ---
 
