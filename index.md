@@ -5,8 +5,6 @@ author_profile: false
 permalink: /
 ---
 
-# Quantum Game Theory for Digital Platform Competition
-
 *Exploring how quantum strategies may affect competition between digital platforms.*
 
 ---
