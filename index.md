@@ -70,27 +70,91 @@ Before diving into the mathematics of quantum game theory, the following video p
 ---
 ## Quantum Game Framework
 
-In the quantum version of the game, the two classical strategies will be represented using qubit basis states:
+The quantum version of this project will follow the **Eisert–Wilkens–Lewenstein (EWL) quantum game framework**, one of the foundational models in quantum game theory. Rather than allowing each player to choose only between two classical actions, the EWL protocol represents each player's strategy using operations on qubits.
 
-- **|0⟩ = maintain fees**
-- **|1⟩ = lower fees**
+### Strategy Encoding
 
-Each platform will control one qubit and apply a quantum operation representing its strategy. The two qubits may also be entangled, allowing the final outcome probabilities to depend on quantum effects such as phase and interference.
+The two classical platform strategies are encoded as computational basis states:
 
-The general process is:
+- **`|0⟩`** = Maintain Fees
+- **`|1⟩`** = Lower Fees
 
-> **|00⟩ → Entanglement → Player Strategies → Measurement → Economic Payoffs**
+Each platform controls one qubit and applies a quantum operation representing its chosen strategy. The two qubits may first be entangled, allowing quantum effects such as superposition, interference, and entanglement to influence the final outcome probabilities.
 
-After measurement, the four possible outcomes correspond to the four outcomes in the classical payoff matrix:
+### Overview of the EWL Process
 
-| Quantum outcome | Platform A | Platform B |
-|---|---|---|
-| **|00⟩** | Maintain fees | Maintain fees |
-| **|01⟩** | Maintain fees | Lower fees |
-| **|10⟩** | Lower fees | Maintain fees |
-| **|11⟩** | Lower fees | Lower fees |
+```text
+Classical Platform Game
+          │
+          ▼
+Construct Payoff Matrix
+          │
+          ▼
+Encode Classical Strategies as Qubits
+          │
+          ▼
+Prepare Initial State |00⟩
+          │
+          ▼
+Apply Entangling Operator (J)
+          │
+          ▼
+Platform A applies UA
+Platform B applies UB
+          │
+          ▼
+Apply Disentangling Operator (J†)
+          │
+          ▼
+Measure Final Quantum State
+          │
+          ▼
+Compute Expected Economic Payoffs
+          │
+          ▼
+Compare with Classical Nash Equilibrium
+```
 
-The quantum circuit determines the probability of each outcome, while the economic payoff matrix determines how valuable each outcome is to the two platforms.
+### Mathematical Representation
+
+The EWL protocol can be summarized mathematically as
+
+```text
+|ψ₀⟩ = |00⟩
+
+↓
+
+|ψ₁⟩ = J|00⟩
+
+↓
+
+|ψ₂⟩ = (UA ⊗ UB)|ψ₁⟩
+
+↓
+
+|ψf⟩ = J†(UA ⊗ UB)J|00⟩
+
+↓
+
+Measure → Expected Payoffs
+```
+
+Here,
+
+- **J** is the entangling operator,
+- **UA** and **UB** are the quantum strategies chosen by each platform,
+- **J†** removes the initial entangling transformation before measurement.
+
+After measurement, the four possible outcomes correspond directly to the four entries of the classical payoff matrix.
+
+| Quantum Outcome | Platform A | Platform B |
+|:---------------:|:----------:|:----------:|
+| `|00⟩` | Maintain Fees | Maintain Fees |
+| `|01⟩` | Maintain Fees | Lower Fees |
+| `|10⟩` | Lower Fees | Maintain Fees |
+| `|11⟩` | Lower Fees | Lower Fees |
+
+The quantum circuit determines the probability of each measurement outcome, while the payoff matrix determines the economic reward associated with each outcome. Comparing these expected payoffs with the classical Nash equilibrium forms the basis of the proposed project.
 
 ## Proposed Approach
 
@@ -116,7 +180,6 @@ The completed version of this project could include:
 
 Possible visualizations could include quantum circuit diagrams, payoff tables, measurement histograms, and graphs comparing classical and quantum expected payoffs.
 
-For the MathQuantum mini-project, I am presenting the research idea, mathematical background, proposed methodology, and future development plan. The full simulation and economic extensions will be completed after further literature review.
 ---
 
 ## Tools and Techniques
