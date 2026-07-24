@@ -156,6 +156,15 @@ After measurement, the four possible outcomes correspond directly to the four en
 
 The quantum circuit determines the probability of each measurement outcome, while the payoff matrix determines the economic reward associated with each outcome. Comparing these expected payoffs with the classical Nash equilibrium forms the basis of the proposed project.
 
+### Further Learning
+
+For readers interested in learning more about the Eisert–Wilkens–Lewenstein (EWL) framework and seeing a hands-on implementation in Qiskit, I recommend the following interactive Jupyter Notebook:
+
+> **Quantum Game Theory with Qiskit**  
+> https://github.com/desireevl/quantum-game-theory/blob/master/notebooks/quantum_game_theory.ipynb
+
+This notebook provides an accessible introduction to classical game theory, Nash equilibrium, the EWL quantization protocol, and demonstrates how quantum games can be modeled and simulated using Qiskit. It has been a valuable educational resource for understanding the concepts that motivate this proposed project.
+
 ## Proposed Approach
 
 1. Create a simplified competition game between two digital platforms.
@@ -241,4 +250,6 @@ In the future I wish to major in Computer Science and minor in Economics, contin
 1. Sethi, R., & Weibull, J. W. (2016). *What Is... Nash Equilibrium?* Notices of the American Mathematical Society, **63**(5), 526–529. https://www.ams.org/publications/journals/notices/201605/rnoti-p526.pdf
 
 2. Eisert, J., Wilkens, M., & Lewenstein, M. (1999). *Quantum Games and Quantum Strategies*. Physical Review Letters, **83**(15), 3077–3080. https://doi.org/10.1103/PhysRevLett.83.3077
+
+3. van der Veen, D. (n.d.). *Quantum Game Theory with Qiskit* (Jupyter Notebook). GitHub Repository. https://github.com/desireevl/quantum-game-theory
 
