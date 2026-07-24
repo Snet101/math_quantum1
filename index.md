@@ -72,26 +72,23 @@ Before diving into the mathematics of quantum game theory, the following video p
 
 In the quantum version of the game, the two classical strategies will be represented using qubit basis states:
 
-- \( |0\rangle \) = maintain fees
-- \( |1\rangle \) = lower fees
+- **|0⟩ = maintain fees**
+- **|1⟩ = lower fees**
 
 Each platform will control one qubit and apply a quantum operation representing its strategy. The two qubits may also be entangled, allowing the final outcome probabilities to depend on quantum effects such as phase and interference.
 
 The general process is:
 
-\[
-|00\rangle
-\rightarrow
-\text{entanglement}
-\rightarrow
-\text{player strategies}
-\rightarrow
-\text{measurement}
-\rightarrow
-\text{economic payoffs}
-\]
+> **|00⟩ → Entanglement → Player Strategies → Measurement → Economic Payoffs**
 
-After measurement, the possible outcomes \( |00\rangle \), \( |01\rangle \), \( |10\rangle \), and \( |11\rangle \) correspond to the four outcomes in the classical payoff matrix.
+After measurement, the four possible outcomes correspond to the four outcomes in the classical payoff matrix:
+
+| Quantum outcome | Platform A | Platform B |
+|---|---|---|
+| **|00⟩** | Maintain fees | Maintain fees |
+| **|01⟩** | Maintain fees | Lower fees |
+| **|10⟩** | Lower fees | Maintain fees |
+| **|11⟩** | Lower fees | Lower fees |
 
 The quantum circuit determines the probability of each outcome, while the economic payoff matrix determines how valuable each outcome is to the two platforms.
 
